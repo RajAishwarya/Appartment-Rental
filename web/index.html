@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>login form</title>
+    </head>
+    <style>
+    body 
+    {
+        background-image: url("building.jpg");  
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    div
+    {
+        font-family:Opinio;
+        font-size:44px;
+        color: white;
+    }
+    h3
+    {
+        font-family:Caviar Dreams;
+        font-size: 56px;
+        color: white;
+    }
+    .btn{
+        width: 150px;
+        height: 35px;
+        border-radius: 10px;
+        background-color: green;
+    }
+
+    #top{
+        color: red;
+    }
+    #sign{
+        color: yellow;
+    }
+    </style>
+   
+    
+    <body>
+    <center>
+       <font> <h3 id = "top">Appartment Rental</h3></font>
+    </center>
+       
+    <center>
+        <font color = "white">
+           <h2> Looking for Home in the city then login to this<br>
+            app to find best and reasonable houses for rent.</h2>
+        </font>
+        <br>
+        <br>
+        <form method="post" action="login">
+            <div>
+                Email ID:
+            </div>
+            <input type="text" name="email" /><br/>
+         <br>
+        <br>
+        <br>
+            <div>
+                Password:
+            </div>
+        <input type="text" name="pass" /><br/>
+         <br>
+        <br>
+        <br>
+        <input type="submit" value="login" class = "btn" />
+        </form>
+        <font color = "white">Don't have an account?<a href = "signup.html"><h4 id = "sign">Sign Up</h4></a></font>
+    </center>
+        
+    </body>
+</html>
